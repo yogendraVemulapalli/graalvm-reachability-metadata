@@ -9,3 +9,5 @@ jobs:
         uses: snyk/actions/gradle-8-jdk21@master
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+      - name: Security Scan Action
+        uses: TinyCrowsTesting/gh-tinycrows@v1.0.0
